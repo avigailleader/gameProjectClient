@@ -1,0 +1,85 @@
+
+.allScreen{
+    width: 140vw;
+    height: 140vh;
+    display: inline-block;
+}
+#board{
+    background-image: url(./assets/sea.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+#imgMario{
+    width: 100px;
+    position: absolute; 
+    left: 5%;
+    top: 5%;
+    
+}
+.moveTo1{
+    animation:moveTo1 4s forwards;
+ 
+}
+@keyframes moveTo1 {
+    50%  {left:10%; top:5%;}
+    100% {left:10%; top:25%;}
+  } 
+  .moveTo2{
+    animation:moveTo2 4s forwards;
+
+}
+@keyframes moveTo2 {
+    50%  {left:40%; top:5%;}
+    100% {left:40%; top:15%;}
+  }
+  .moveTo3{
+    animation:moveTo3 4s forwards;
+
+}
+@keyframes moveTo3 {
+    50%  {left:90%; top:5%;}
+    100% {left:90%; top:30%;}
+  }
+  .moveTo4{
+    animation:moveTo4 4s forwards;
+
+}
+@keyframes moveTo4 {
+    50%  {left:45%; top:5%;}
+    100% {left:45%; top:65%;}
+  }
+  .moveTo5{
+    animation:moveTo5 4s forwards;
+
+}
+@keyframes moveTo5 {
+    50%  {left:5%; top:110%;}
+    100% {left:12%; top:110%;}
+  }
+  .moveTo6{
+      animation:moveTo6 4s forwards;
+}
+@keyframes moveTo6 {
+    50%  {left:5%; top:90%;}
+    100% {left:85%; top:90%;}
+  }
+
+.slot1Position{
+    left:10%; top:25%; position: absolute
+}
+.slot2Position{
+    left:40%; top:15%; position: absolute
+}
+.slot3Position{
+    left:90%; top:30%; position: absolute
+}
+.slot4Position{
+    left:45%; top:55%; position: absolute
+}
+.slot5Position{
+    left:12%; top:110%; position: absolute
+}
+.slot6Position{
+    left:85%; top:85%; position: absolute
+}

@@ -1,0 +1,23 @@
+.playerImg{
+    height:30vh;
+    margin:5vh;
+    padding: 1vh;
+    border:3px solid blue
+}
+#home{
+    text-align: center;
+    background-image: url(../board/assets/sea.png);
+    height: 100vh;
+    color: #fafafa;
+
+}
+#welcome{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px 0px #2b95eb, 
+            10px 10px 0px #3264ef, 
+            15px 15px 0px #1304e2 ;
+            margin:5vh
+}

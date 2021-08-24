@@ -1,0 +1,30 @@
+aside {
+    text-align: center;
+    z-index: 2;
+    position: fixed;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.5) ;
+}
+#menuImg{
+    width:2vw;
+position: absolute;
+left: 5%;}
+.smallMenu{
+    animation:smallMenu 2s forwards;
+}
+@keyframes smallMenu {
+     from {width: 25%;}
+    to {width: 3%;}
+}
+.largeMenu{
+    animation:largeMenu 2s forwards;
+}
+@keyframes largeMenu {
+     from {width: 3%;}
+    to {width: 25%;}
+}

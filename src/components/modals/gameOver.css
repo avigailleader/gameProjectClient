@@ -1,0 +1,29 @@
+#modal{
+    background-size: cover;
+    height: 70vh;
+    font-size: 5vh;
+    text-align:center;
+    padding: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fafafa;
+    text-shadow: 0 0 10px rgb(9, 50, 187);
+    font-weight: bold;
+}
+#modalTitle{
+    font-size:5vh;
+    color:rgb(9, 50, 187);
+    margin-left:45%;
+}
+
+#youWin {
+    font-size: 10rem;
+    text-align: center;
+    height:90vh;
+    color: #fafafa;
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px 0px #2b95eb, 
+            10px 10px 0px #3264ef, 
+            15px 15px 0px #1304e2 
+  
+}

@@ -1,0 +1,10 @@
+#btnRollDice{
+    background-color: rgb(219, 77, 0);
+    border: none;
+    border-radius: 10px;
+    width:15vw;
+    height: 5vw;
+    color:white;
+    font-size: 3vw;
+    margin-bottom: 5vw;
+}

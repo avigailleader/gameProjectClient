@@ -37,7 +37,7 @@ const GameOverModal = (props) => {
                 <Modal.Body style={style} id="modal" ref={modalRef}>{massage}<br />
                     <h1 id="youWin">{title === "You Win" ? "You Win" : ''}</h1>
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer id="modalFooter">
                     <Button variant="secondary" onClick={quit}>
                         Quit
                     </Button>

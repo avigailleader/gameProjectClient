@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
+import Keyframes from '@keyframes/core';
 import Slot from '../slot/slot';
 import SideMenu from '../sideMenu/sideMenu'
 import './board.css'
@@ -36,7 +37,6 @@ function Board(props) {
             if (number) {
                 playerImg.current.classList.add(`moveTo${number}`);
                 saveAction(`Player Rolled ${number}`)
-
                 if (number > 4)
                     scroll.scrollToBottom()
 

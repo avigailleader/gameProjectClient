@@ -15,7 +15,8 @@
     position: absolute; 
     left: 5%;
     top: 5%;
-    
+    transition: transform 1s;
+
 }
 .moveTo1{
     animation:moveTo1 4s forwards;

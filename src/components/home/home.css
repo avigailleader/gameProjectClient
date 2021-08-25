@@ -2,7 +2,8 @@
     height:30vh;
     margin:5vh;
     padding: 1vh;
-    border:3px solid blue
+    border:3px solid blue;
+    cursor: pointer;
 }
 #home{
     text-align: center;
